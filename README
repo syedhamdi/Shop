@@ -1,0 +1,16 @@
+Shop        : https://github.com/syedhamdi/Shop.git
+
+RUN         : sudo npm run dev
+PORT        : 8080
+POSTMAN     : Shop.postman_collection.json
+DATABASE    : in-memory
+
+API's
+- List All Items                    : GET http://localhost:8080/api/items
+- List Item By Id                   : GET http://localhost:8080/api/items/:id
+- Search By Title And Description   : GET http://localhost:8080/api/items/search/:term
+- Search By Title                   : GET http://localhost:8080/api/items/search/title/:term
+- Search By Description             : GET http://localhost:8080/api/items/search/desc/:term
+- Sort By Price (asc/desc)          : GET http://localhost:8080/api/items/sort/price/:order
+- List All Orders                   : GET http://localhost:8080/api/orders
+- Add Order                         : POST http://localhost:8080/api/orders
