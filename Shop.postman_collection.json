@@ -22,7 +22,113 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "List All Items",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/items",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"items"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2566"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a06-sgXq+67qiDCbiWPcHvjQeaAAEQw\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Nov 2022 19:55:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"EcoFlow Portable Power Station\",\n        \"price\": 599,\n        \"desc\": \"EcoFlow DELTA Power Station represents the new standard of battery-powered generators. Compatible with a wide range of devices, you can stay powered for hours whenever and wherever.\",\n        \"pic\": \"https://cdn.shopify.com/s/files/1/1996/9707/products/ecoflow-us-ecoflow-delta-2-portable-power-station-30045802102857_1024x1024@2x.png?v=1667531434\",\n        \"qty\": 150\n    },\n    {\n        \"id\": 2,\n        \"title\": \"Philips ProBlend Blender\",\n        \"price\": 59,\n        \"desc\": \"The Philips blender with ProBlend 6 and 800W motor can handle just about anything - from fruits/vegetables to ice. Its multi-speed function will blend, crush and cut for perfectly smooth blending and any consistency you want.\",\n        \"pic\": \"https://images.philips.com/is/image/philipsconsumer/641123317aaf4b1cbb06ad13016f2294?wid=420&hei=360&$jpglarge$\",\n        \"qty\": 500\n    },\n    {\n        \"id\": 3,\n        \"title\": \"Samsung BU8000 4K UHD Smart TV\",\n        \"price\": 2499,\n        \"desc\": \"Dynamic Crystal Colour - Lifelike colour, born in a pure state with fine crystal, Air Slim- Sleek and slim, more than ever, Crystal Processor 4K - Feel every shade of colour as intended in powerful 4K, Smart Hub - Discover your favorite movies, TV shows, games and ambient screens all in one place\",\n        \"pic\": \"https://images.samsung.com/is/image/samsung/p6pim/my/ua55bu8000kxxm/gallery/my-uhd-4k-tv-ua55bu8000kxxm-l-perspective-black-531386051?$684_547_PNG$\",\n        \"qty\": 250\n    },\n    {\n        \"id\": 4,\n        \"title\": \"Oral-B Vitality Electric Toothbrush\",\n        \"price\": 129,\n        \"desc\": \"The Oral-B Vitality Precision Clean electric toothbrush provides a clinically proven superior clean vs. a regular manual toothbrush. The round shape of the Precision Clean toothbrush head is designed to clean tooth by tooth, and 2D cleaning action oscillates and rotates for better plaque removal than a regular manual toothbrush. There is one mode – Daily Clean – and a pressure sensor to alert you if you brush too hard, plus an in-handle timer helps you brush for a dentist-recommended 2 minutes. Best of all it’s brought to you by Oral-B – the No. 1 brand used by dentists worldwide.\",\n        \"pic\": \"https://cdn11.bigcommerce.com/s-2idmiil7bp/images/stencil/640w/products/935/5951/pdp-io5-black-40__86859__49190.1668923638.jpg?c=1\",\n        \"qty\": 700\n    },\n    {\n        \"id\": 5,\n        \"title\": \"iPhone 14 Pro\",\n        \"price\": 5299,\n        \"desc\": \"A magical new way to interact with iPhone. A vital new safety feature designed to save lives. An innovative 48MP camera for mind-blowing detail. All powered by the ultimate smartphone chip.\",\n        \"pic\": \"https://www.apple.com/v/iphone-14-pro/c/images/overview/display/display_brilliant__cxm59tsbth4y_large.jpg\",\n        \"qty\": 100\n    }\n]"
+				}
+			]
 		},
 		{
 			"name": "List Item By Id",
@@ -48,7 +154,261 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "List Item By Id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/items/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"items",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "418"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1a2-0GSMzqtV0YVwQzzRqVZppIEmlCA\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Nov 2022 19:55:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1,\n    \"title\": \"EcoFlow Portable Power Station\",\n    \"price\": 599,\n    \"desc\": \"EcoFlow DELTA Power Station represents the new standard of battery-powered generators. Compatible with a wide range of devices, you can stay powered for hours whenever and wherever.\",\n    \"pic\": \"https://cdn.shopify.com/s/files/1/1996/9707/products/ecoflow-us-ecoflow-delta-2-portable-power-station-30045802102857_1024x1024@2x.png?v=1667531434\",\n    \"qty\": 150\n}"
+				}
+			]
+		},
+		{
+			"name": "Search By Title And Description",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/items/search/:term",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"items",
+						"search",
+						":term"
+					],
+					"variable": [
+						{
+							"key": "term",
+							"value": "tv"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Search By Title And Description",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/items/search/:term",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"items",
+								"search",
+								":term"
+							],
+							"variable": [
+								{
+									"key": "term",
+									"value": "tv"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "704"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2c0-G2NXlKwNPOsW9Nx5kdvG1D9X11w\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Nov 2022 20:34:15 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 3,\n        \"score\": 3.6325295033418836,\n        \"terms\": [\n            \"tv\"\n        ],\n        \"match\": {\n            \"tv\": [\n                \"title\",\n                \"desc\"\n            ]\n        },\n        \"title\": \"Samsung BU8000 4K UHD Smart TV\",\n        \"desc\": \"Dynamic Crystal Colour - Lifelike colour, born in a pure state with fine crystal, Air Slim- Sleek and slim, more than ever, Crystal Processor 4K - Feel every shade of colour as intended in powerful 4K, Smart Hub - Discover your favorite movies, TV shows, games and ambient screens all in one place\"\n    },\n    {\n        \"id\": 6,\n        \"score\": 1.5603981123011348,\n        \"terms\": [\n            \"tv\"\n        ],\n        \"match\": {\n            \"tv\": [\n                \"title\"\n            ]\n        },\n        \"title\": \"LG Smart UHD TV\",\n        \"desc\": \"The images used in the product overview below are for representative purposes. Refer to the image gallery at the top of the page for an accurate representation.\"\n    }\n]"
+				}
+			]
 		},
 		{
 			"name": "Search By Title",
@@ -71,12 +431,127 @@
 					"variable": [
 						{
 							"key": "term",
-							"value": "book"
+							"value": "blender"
 						}
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Search By Title",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/items/search/title/:term",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"items",
+								"search",
+								"title",
+								":term"
+							],
+							"variable": [
+								{
+									"key": "term",
+									"value": "blender"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "122"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7a-trHmjXzhe4Yfxn+FtRrEkSFfBHk\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Nov 2022 20:06:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 2,\n        \"score\": 2.4950693700683058,\n        \"terms\": [\n            \"blender\"\n        ],\n        \"match\": {\n            \"blender\": [\n                \"title\"\n            ]\n        },\n        \"title\": \"Philips ProBlend Blender\"\n    }\n]"
+				}
+			]
 		},
 		{
 			"name": "Search By Description",
@@ -99,12 +574,127 @@
 					"variable": [
 						{
 							"key": "term",
-							"value": "infor"
+							"value": "phone"
 						}
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Search By Description",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/items/search/desc/:term",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"items",
+								"search",
+								"desc",
+								":term"
+							],
+							"variable": [
+								{
+									"key": "term",
+									"value": "phone"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "275"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"113-EHMlYvJZ1al4hNHvkzd4IjcZTIU\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Nov 2022 19:56:50 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 5,\n        \"score\": 2.246916065219963,\n        \"terms\": [\n            \"phone\"\n        ],\n        \"match\": {\n            \"phone\": [\n                \"desc\"\n            ]\n        },\n        \"desc\": \"A magical new way to interact with iPhone. A vital new safety feature designed to save lives. An innovative 48MP camera for mind-blowing detail. All powered by the ultimate phone chip.\"\n    }\n]"
+				}
+			]
 		},
 		{
 			"name": "Sort By Price",
@@ -133,7 +723,123 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Sort By Price",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/items/sort/price/:order",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"items",
+								"sort",
+								"price",
+								":order"
+							],
+							"variable": [
+								{
+									"key": "order",
+									"value": "desc",
+									"description": "'asc' or 'desc'"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2561"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a01-vcew9p5A3jSlKDoU7MJf5YY8xYI\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Nov 2022 19:57:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 5,\n        \"title\": \"iPhone 14 Pro\",\n        \"price\": 5299,\n        \"desc\": \"A magical new way to interact with iPhone. A vital new safety feature designed to save lives. An innovative 48MP camera for mind-blowing detail. All powered by the ultimate phone chip.\",\n        \"pic\": \"https://www.apple.com/v/iphone-14-pro/c/images/overview/display/display_brilliant__cxm59tsbth4y_large.jpg\",\n        \"qty\": 100\n    },\n    {\n        \"id\": 3,\n        \"title\": \"Samsung BU8000 4K UHD Smart TV\",\n        \"price\": 2499,\n        \"desc\": \"Dynamic Crystal Colour - Lifelike colour, born in a pure state with fine crystal, Air Slim- Sleek and slim, more than ever, Crystal Processor 4K - Feel every shade of colour as intended in powerful 4K, Smart Hub - Discover your favorite movies, TV shows, games and ambient screens all in one place\",\n        \"pic\": \"https://images.samsung.com/is/image/samsung/p6pim/my/ua55bu8000kxxm/gallery/my-uhd-4k-tv-ua55bu8000kxxm-l-perspective-black-531386051?$684_547_PNG$\",\n        \"qty\": 250\n    },\n    {\n        \"id\": 1,\n        \"title\": \"EcoFlow Portable Power Station\",\n        \"price\": 599,\n        \"desc\": \"EcoFlow DELTA Power Station represents the new standard of battery-powered generators. Compatible with a wide range of devices, you can stay powered for hours whenever and wherever.\",\n        \"pic\": \"https://cdn.shopify.com/s/files/1/1996/9707/products/ecoflow-us-ecoflow-delta-2-portable-power-station-30045802102857_1024x1024@2x.png?v=1667531434\",\n        \"qty\": 150\n    },\n    {\n        \"id\": 4,\n        \"title\": \"Oral-B Vitality Electric Toothbrush\",\n        \"price\": 129,\n        \"desc\": \"The Oral-B Vitality Precision Clean electric toothbrush provides a clinically proven superior clean vs. a regular manual toothbrush. The round shape of the Precision Clean toothbrush head is designed to clean tooth by tooth, and 2D cleaning action oscillates and rotates for better plaque removal than a regular manual toothbrush. There is one mode – Daily Clean – and a pressure sensor to alert you if you brush too hard, plus an in-handle timer helps you brush for a dentist-recommended 2 minutes. Best of all it’s brought to you by Oral-B – the No. 1 brand used by dentists worldwide.\",\n        \"pic\": \"https://cdn11.bigcommerce.com/s-2idmiil7bp/images/stencil/640w/products/935/5951/pdp-io5-black-40__86859__49190.1668923638.jpg?c=1\",\n        \"qty\": 700\n    },\n    {\n        \"id\": 2,\n        \"title\": \"Philips ProBlend Blender\",\n        \"price\": 59,\n        \"desc\": \"The Philips blender with ProBlend 6 and 800W motor can handle just about anything - from fruits/vegetables to ice. Its multi-speed function will blend, crush and cut for perfectly smooth blending and any consistency you want.\",\n        \"pic\": \"https://images.philips.com/is/image/philipsconsumer/641123317aaf4b1cbb06ad13016f2294?wid=420&hei=360&$jpglarge$\",\n        \"qty\": 500\n    }\n]"
+				}
+			]
 		},
 		{
 			"name": "List All Orders",
@@ -152,7 +858,113 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "List All Orders",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/orders",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"orders"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "853"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"355-ZFUvQ0uWuhw6HXft13HXWifPiL4\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Nov 2022 19:58:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1669406292568,\n        \"ordNo\": 1001,\n        \"custId\": 10001,\n        \"itemId\": 4,\n        \"ordQty\": 2\n    },\n    {\n        \"id\": 1669406300008,\n        \"ordNo\": 1001,\n        \"custId\": 10001,\n        \"itemId\": 4,\n        \"ordQty\": 2\n    },\n    {\n        \"id\": 1669406306243,\n        \"ordNo\": 1001,\n        \"custId\": 10001,\n        \"itemId\": 4,\n        \"ordQty\": 2\n    },\n    {\n        \"id\": 1669406306723,\n        \"ordNo\": 1001,\n        \"custId\": 10001,\n        \"itemId\": 4,\n        \"ordQty\": 2\n    },\n    {\n        \"id\": 1669406307346,\n        \"ordNo\": 1001,\n        \"custId\": 10001,\n        \"itemId\": 4,\n        \"ordQty\": 2\n    },\n    {\n        \"id\": 1669406307881,\n        \"ordNo\": 1001,\n        \"custId\": 10001,\n        \"itemId\": 4,\n        \"ordQty\": 2\n    },\n    {\n        \"id\": 1669406308409,\n        \"ordNo\": 1001,\n        \"custId\": 10001,\n        \"itemId\": 4,\n        \"ordQty\": 2\n    },\n    {\n        \"id\": 1669406309476,\n        \"ordNo\": 1001,\n        \"custId\": 10001,\n        \"itemId\": 4,\n        \"ordQty\": 2\n    },\n    {\n        \"id\": 1669406310085,\n        \"ordNo\": 1001,\n        \"custId\": 10001,\n        \"itemId\": 4,\n        \"ordQty\": 2\n    },\n    {\n        \"id\": 1669406310666,\n        \"ordNo\": 1001,\n        \"custId\": 10001,\n        \"itemId\": 4,\n        \"ordQty\": 2\n    },\n    {\n        \"id\": 1669406311122,\n        \"ordNo\": 1001,\n        \"custId\": 10001,\n        \"itemId\": 4,\n        \"ordQty\": 2\n    },\n    {\n        \"id\": 1669406311726,\n        \"ordNo\": 1001,\n        \"custId\": 10001,\n        \"itemId\": 4,\n        \"ordQty\": 2\n    }\n]"
+				}
+			]
 		},
 		{
 			"name": "Add Order",
@@ -172,7 +984,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"ordNo\": 1001,\n    \"custId\": 100,\n    \"itemId\": 3,\n    \"ordQty\": 3\n}"
+					"raw": "{\n    \"ordNo\": 1001,\n    \"custId\": 10001,\n    \"itemId\": 4,\n    \"ordQty\": 2\n}"
 				},
 				"url": {
 					"raw": "localhost:8080/api/orders",
@@ -186,7 +998,123 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Add Order",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"ordNo\": 1001,\n    \"custId\": 10001,\n    \"itemId\": 4,\n    \"ordQty\": 2\n}"
+						},
+						"url": {
+							"raw": "localhost:8080/api/orders",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"orders"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Embedder-Policy",
+							"value": "require-corp"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "70"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"46-4xl6B63M0xS8yjnLRub4VTMNMrs\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 25 Nov 2022 19:58:31 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1669406311726,\n    \"ordNo\": 1001,\n    \"custId\": 10001,\n    \"itemId\": 4,\n    \"ordQty\": 2\n}"
+				}
+			]
 		}
 	]
 }
