@@ -7,12 +7,13 @@ cd into shop
 npm install
 
 # Open localhost:8080
+
 # To run test
 npm run start-dev
 ```
 
-POSTMAN     : Shop.postman_collection.json
-DATABASE    : in-memory
+POSTMAN     : Shop.postman_collection.json  
+DATABASE    : in-memory  
 
 ### API
 ```bash
